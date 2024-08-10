@@ -120,6 +120,16 @@
 }
 
 /* banner related style  */
+
+.banner-content{
+    margin: 80 0 50;
+    
+}
+
+.banner-title{
+    margin-bottom: 20px;
+}
+
 .banner{
 
     max-width: 1440px;
