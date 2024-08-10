@@ -107,7 +107,9 @@
     margin:0px auto;
     display:flex;
     justify-content:space-between;
-    border: dashed 2px rgb(181, 18, 18);
+
+    padding-top: 30px;
+    
 
 
 }
@@ -127,7 +129,7 @@
 }
 
 .banner-title{
-    margin-bottom: 20px;
+    margin-top:20px;
 }
 
 .banner{
@@ -137,7 +139,23 @@
     display:flex;
     justify-content: center;
     flex-direction: column;
-    border: dashed 2px rgb(18, 181, 75);
     text-align: center;
 
+}
+
+.banner-paragraph{
+    margin:20px 20%;
+}
+
+.banner-img{
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+/* responsive media query */
+
+@media screen and (max-width:576px) {
+    .navbar,.nav-links{
+        flex-direction: column;
+    }
 }
